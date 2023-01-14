@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header class="header">
+            <h1 class="titulo"><a href="index.html">Mi CV</a></h1>
+            <nav class="navegacion">
+                <a href="contacto.html">Contacto</a>
+                <a href="sobremi.html">Más Sobre Mi</a>
+            </nav>
+        </header>
+        <main>
+            <div class="contenido-formulario">
+                <h3 class="titulo-formulario">Pongase en contacto conmigo</h3>
+                <form class="formulario">
+                    <fieldset class="fieldset">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name_person" class="input nombre" required autofocus>
+            
+                        <label for="correo">E-mail</label>
+                        <input type="email" id="correo" name="email_person" class="input correo" required>
+    
+                        <div class="div-textarea">
+                            <label for="mensaje">Tu Mensaje</label>
+                            <textarea name="mensaje_person" id="mensaje" cols="25" rows="10" class="textarea input mensaje" required></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="div-btn">
+                        <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                    </div>
+                </form>
+            </div>
+            <div class="mensaje"></div>
+        </main>
+        <footer class="footer">
+            <p>Esta pagina es responsive, &#174;creada por Luca Espindola - &#169;2023</p>
+        </footer>
+        <script src="js/scripts.js"></script>
+</body>
+</html>
